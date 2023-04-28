@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/icon.jpg">
+    <title>Coffee Shop</title>
+      <!--font awesome cdn icon links-->
+      <link rel="stylesheet"  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+      <!--Style sheet Links-->
+      <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header" id="header">
+          <!--navbar section start-->
+        <section class="navbar">
+              <div class="nav-container">
+<nav>
+ <div class="logo">
+  <img src="img/logo.png" alt="coffee shop">
+        </div>
+       <ul class="nav-links">
+         <li><a href="index.html" >Home</a></li>
+          <li><a href="about.html" class="active">Aboutus</a></li>
+         <li><a href="menu.html">Menu</a></li>
+           <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="contact.html">Contact</a></li>
+   </ul>
+    <div class="bar" onclick="mynav()">
+    <div class="line1"></div>
+  <div class="line2"></div>
+     <div class="line3"></div>
+                </div>
+        </nav>
+                    </div>
+                </section>
+            </header>
+            <!--navbar end-->
+          
+            <!--Start the about Section-->
+<section>
+<div class="about" id="about">
+    <div class="container">
+<div class="about-img">
+    <img src="img/g7.png"
+    alt="coffee dring pic" >
+</div>
+    <div class="text">
+    <h2>A Cup Of Coffee Can Compleated Your Day</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Aut repellendus voluptatibus minus
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Aut repellendus voluptatibus minus hic reiciendis 
+                modi asperiores. </p>
+               
+<a href="menu.html" class="btn"> Our menu  </a>
+    </div>
+</div></div>
+</section>
+<!--end the about section-->
+<!--start the one class--> 
+<section>       
+ <div class="one" id="one">
+    <div class="container">
+        <div class="text">
+            <h2>A Cup Of Coffee </h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Aut repellendus voluptatibus minus
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Aut repellendus voluptatibus minus hic reiciendis 
+                        modi asperiores. </p>
+      <a href="gallery.html" class="btn">Learn More</a>
+    </div>
+    <div class="about-img">
+        <iframe src="https://assets.mixkit.co/videos/preview/mixkit-serving-a-sparkling-cappuccino-in-a-cup-41859-large.mp4" 
+        frameborder="1">
+        </iframe>
+        </div>
+    </div>
+   </div>
+</section>
+<!--end the one class-->
+<!--start the contact Section-->
+<section>
+    <div class="sec-title">
+        <div class="sec-text">
+         <h1>Contact us</h1>
+        </div> 
+        <div class="sec-img">
+         <img src="img/un.png" alt="underline">
+        </div></div>
+<div class="contact" id="contact">
+       <div class="container">
+        <div class="login">
+            <h2>Book A Table</h2>
+            <form 
+             id="form" class="form" autocomplete="off">
+     <div class="form-group  ">
+        <label for="username">UserName</label>
+        <input type="text" id="username"
+         placeholder="Enter user name">
+        <p>error msg</p>
+     </div>
+     <div class="form-group ">
+        <label for="phone">Phone</label>
+        <input type="text" id="phone"
+         placeholder="Enter user phone number">
+        <p>error msg</p>
+     </div>
+     <div class="form-group">
+        <label for="number">Geust</label>
+        <input type="text" id="number"
+         placeholder="Enter how many guests">
+        <p>error msg</p>
+     </div>
+ <button type="submit" onclick="myform()">Submit</button>
+            </form> 
+        </div>
+   <div class="contact-img">
+            <img src="img/pic1.png" alt="coffee dring pic" >
+        </div>
+    </div>
+</section>
+<!--end the contact section-->
+<!--start the footer section-->
+<section class="footer" id="footer">
+    <div class="container">
+       <div class="row">
+        & &nbsp; Copyright &nbsp; @ &nbsp; 2023 &nbsp; By &nbsp;
+        <span style="color: #b8860b;;  font-family: 'Roboto', sans-serif;
+        font-size: 18px;">Mr.WebDesigner &nbsp;</span>
+        | &nbsp;All &nbsp; Reserved &nbsp;!
+       </div>
+    </div>
+</section>
+<!--end the footer section-->
+
+       
+    
+
+ <!--connect the js-->
+ <script src="script.js"></script>
+</body>
+</html>

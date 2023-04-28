@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/icon.jpg">
+    <title>Coffee Shop</title>
+    <!--font awesome cdn icon links-->
+    <link rel="stylesheet"  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!--Style sheet Links-->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="header" id="header">
+        <!--navbar section start-->
+      <section class="navbar">
+            <div class="nav-container">
+<nav>
+<div class="logo">
+<img src="img/logo.png" alt="coffee shop">
+      </div>
+     <ul class="nav-links">
+       <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">Aboutus</a></li>
+       <li><a href="menu.html"  class="active">Menu</a></li>
+         <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="contact.html">Contact</a></li>
+ </ul>
+  <div class="bar" onclick="mynav()">
+  <div class="line1"></div>
+<div class="line2"></div>
+   <div class="line3"></div>
+              </div>
+      </nav>
+                  </div>
+              </section>
+          </header>
+          <!--navbar end-->
+  <!--Start the about Section-->
+ <section>
+<div class="carousel" id="carousel">
+   <div class="container">
+    <div class="slider">
+        <div class="slider-item active" onclick="mycarousel()">
+        <img src="img/g1.png" alt="ice">
+       </div>
+ <div class="slider-item">
+    <img src="img/g2.png" alt="ice">  
+  </div>
+ <div class="slider-item">
+ <img src="img/pic.png" alt="ice">  
+    </div>
+<div class="slider-item ">
+ <img src="img/g4.jpg " alt="ice">  
+ </div>
+ <div class="slider-item ">
+      <img src="img/g5.png" alt="ice">  
+  </div>
+  <!---prev and next buttons-->
+   <div class="slider-buttons">
+  <button id="btn-prev">
+   <i class="fa fa-chevron-left"></i>
+       </button>
+        <button id="btn-next">
+ <i class="fa fa-chevron-right"></i>
+   </button>
+   </div>
+      <!--dots-->
+  <div class="dots">
+     </div>
+        </div>      
+    <div class="text">
+    <h2>A Cup Of Coffee Can Compleated Your Day</h2>
+     <p>Lorem ipsum dolor sit amet consectetur adipisicing 
+ elit.Aut repellendus voluptatibus minus. Lorem
+ipsum dolor sit amet consectetur adipisicing elit.
+ Aut repellendus voluptatibus minus hic reiciendis 
+modi asperiores. Lorem ipsum, dolor sit amet 
+consectetur adipisicing elit. Rerum corrupti quo reiciendis 
+quia temporibu molestias eos iste cum aliquid fugit. </p>
+ </div>
+</div></div>
+</section>
+<!--end the about section-->
+<!--start the facility section-->
+<section>
+    <div class="sec-title">
+      <div class="sec-text">
+       <h1>Our Facility</h1>
+      </div> 
+      <div class="sec-img">
+       <img src="img/un.png" alt="underline">
+      </div></div>
+  <div class="facility" id="facility">
+    <div class="container">
+       <div class="card-container">
+    <div class="card">
+        <img src="img/g7.png" alt="coffee cup">
+        <div class="text">
+            <h3>Coffee</h3>
+        <p>Lorem ipsum dolor sit amet consectetur
+  adipisicing elit. Quisquam, aliquid.</p>
+        </div>
+        </div>
+  <div class="card">
+    <img src="img/f5.jpg" alt="coffee cup">
+    <div class="text">
+        <h3>Coffee Beans</h3>
+    <p>Lorem ipsum dolor sit amet consectetur
+  adipisicing elit. Quisquam, aliquid.</p>
+    </div>
+  </div>
+  <div class="card">
+    <img src="img/g8.png" alt="coffee cup">
+    <div class="text">
+        <h3>BreakFast And Sweets </h3>
+    <p>Lorem ipsum dolor sit amet consectetur
+  adipisicing elit. Quisquam, aliquid.</p>
+    </div>
+  </div>
+  <div class="card">
+    <img src="img/g9.jpg" alt="coffee cup">
+    <div class="text">
+        <h3>coffee</h3>
+    <p>Lorem ipsum dolor sit amet consectetur
+  adipisicing elit. Quisquam, aliquid.</p>
+    </div>
+  </div>
+  </div>
+    </div></div>
+  </section>
+  <!--end the facility Section--> 
+  
+  <!--start the menu section-->
+<section>
+    <div class="sec-title">
+      <div class="sec-text">
+       <h1>Popular Menu</h1>
+      </div> 
+      <div class="sec-img">
+       <img src="img/un.png" alt="underline">
+      </div></div>
+  <div class="menu" id="menu">
+    <div class="container">
+        <div class="menu-container">
+            <!--coffee-->
+            <div class="menu-card" data-name="p-1">
+                <img src="img/m1.jpg" alt="coffee">
+                <div class="text">
+                    <h3>Coffee</h3>
+                    <div class="price">$15.00</div>
+                </div>
+                </div>
+                 <!--black coffee-->
+                <div class="menu-card" data-name="p-2">
+                    <img src="img/m2.png" alt=" black coffee">
+                    <div class="text">
+                        <h3>Black Coffee</h3>
+                        <div class="price">$10.00</div>
+                    </div>
+                    </div>
+                     <!--coffee Art-->
+                    <div class="menu-card" data-name="p-3">
+                        <img src="img/m3.jpg" alt="coffeeArt">
+                        <div class="text">
+                            <h3>Coffee Art</h3>
+                            <div class="price">$40.00</div>
+                        </div>
+                        </div>
+                         <!-- chocolate coffee-->
+                        <div class="menu-card" data-name="p-4">
+                            <img src="img/m4.png" alt="Chocolate coffee">
+                            <div class="text">
+                                <h3>Chocolate Coffee</h3>
+                                <div class="price">$40.00</div>
+                            </div>
+                            </div>
+                             <!--iced coffee-->
+                            <div class="menu-card" data-name="p-5">
+                                <img src="img/m5.png" alt="iced coffee">
+                                <div class="text">
+                                    <h3>Iced Coffee</h3>
+                                    <div class="price">$30.00</div>
+                                </div>
+                                </div>
+                                 <!--caramel coffee-->
+                                <div class="menu-card" data-name="p-6">
+                                    <img src="img/m6.png" alt="caramel coffee">
+                                    <div class="text">
+                                        <h3>CaramelCoffee</h3>
+           <div class="price">$20.00</div>
+        </div>
+        </div>
+        </div>
+  </div></div></section>
+  <!--start the facility section-->
+  <!--start the footer section-->
+<section class="footer" id="footer">
+  <div class="container">
+     <div class="row">
+      & &nbsp; Copyright &nbsp; @ &nbsp; 2023 &nbsp; By &nbsp;
+      <span style="color: #b8860b;;  font-family: 'Roboto', sans-serif;
+      font-size: 18px;">Mr.WebDesigner &nbsp;</span>
+      | &nbsp;All &nbsp; Reserved &nbsp;!
+     </div>
+  </div>
+</section>
+<!--end the footer section-->
+   
+  <!--connect the js-->
+  <script src="script.js"></script>
+</body>
+</html>
